@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f6f8; /* Professional light grey */
+  color: #333;
+}
+
+/* Card hover effect */
+.product-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08) !important;
+}
+
+/* Buttons ko thoda modern banane ke liye */
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+}
